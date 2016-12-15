@@ -1,0 +1,4 @@
+# BluetoothControl
+android蓝牙
+目的是为了与Arduino的蓝牙模块通信
+目前只能作为客户端连接其他蓝牙设备
