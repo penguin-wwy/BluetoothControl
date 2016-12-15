@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="335dp"
+        android:id="@+id/textView"
+        android:layout_weight="0.92" />
+
+    <Button
+        android:text="搜索设备"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="选择连接"
+        android:id="@+id/contect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="聊天"
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
