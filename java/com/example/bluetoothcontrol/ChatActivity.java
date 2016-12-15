@@ -43,7 +43,7 @@ public class ChatActivity extends Activity {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String data = inputText.getText().toString() + "$";
+                String data = inputText.getText().toString();
                 if (!"".equals(data)) {
                     Msg msg = new Msg(data, Msg.TYPE_SEND);
                     listMsg.add(msg);
